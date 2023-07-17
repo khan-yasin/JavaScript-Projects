@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Ysabeau+SC:wght@1;100;200;300;400;500;600&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Ysabeau SC",sans-serif;
+    margin: 0;
+    background-color: #7bdaf3;
+    display: flex;
+    flex-wrap: wrap;
+}
+.notes
+{
+    background-color: #fff;
+    margin: 20px;
+    height: 400px;
+    width: 400px;
+}
+.notes .tools
+{
+    background-color: #9ec862;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.notes .tools button{
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+}
+.add
+{
+    background-color: #9ec862;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    margin: auto;
+}
+
+.notes .main {
+    /* display: none; */
+    height: 100%;
+    width: 100%;
+}
+.notes textarea {
+    height: 100%;
+    width: 100%;
+    font-family: inherit;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+}
+.notes .hidden {
+    display: none; 
+}
